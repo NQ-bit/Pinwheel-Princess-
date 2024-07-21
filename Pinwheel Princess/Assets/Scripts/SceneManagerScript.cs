@@ -10,5 +10,10 @@ public class SceneManagerScript : MonoBehaviour
     public void LoadScene(string CutScene)
     {
         SceneManager.LoadScene(CutScene);
+        
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
