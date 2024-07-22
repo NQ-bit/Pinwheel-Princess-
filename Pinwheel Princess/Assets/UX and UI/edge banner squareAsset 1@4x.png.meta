@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 51f0d4284e1c7d341b6f39c94a01873b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6388
+        width: 498
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72077813d520b1244ac65a2b7af1ed68
+      internalID: 1847091557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_1
+      rect:
+        serializedVersion: 2
+        x: 9989
+        y: 4974
+        width: 388
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8181c9c76c334e9a795740090d67d
+      internalID: -1369240473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 4346
+        width: 4347
+        height: 1366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db6ce7337383c469dcf76b09158dbe
+      internalID: -633754389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_3
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 5285
+        width: 2722
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b449445ed6bafbb4f906c69fde3c4e90
+      internalID: -1697313908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_4
+      rect:
+        serializedVersion: 2
+        x: 8740
+        y: 4996
+        width: 384
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a8883ccbf69ac4ab1f09dd80e76a8f
+      internalID: 1210218908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_5
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 4657
+        width: 2722
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c5b9e210614fe44ac5427ebf640980
+      internalID: 1028043772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_6
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 3868
+        width: 2690
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6df96db6d846d1469a1051cfe4d8424
+      internalID: -1849043637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_7
+      rect:
+        serializedVersion: 2
+        x: 8740
+        y: 3889
+        width: 384
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6310b98d7069b54fb14b8bac4115d4c
+      internalID: -681739235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_8
+      rect:
+        serializedVersion: 2
+        x: 9989
+        y: 3866
+        width: 384
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5afaefbf9cab1a48b77a223329efdba
+      internalID: 1018753600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2536
+        width: 4351
+        height: 1345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a54255600151e41830822191f6c3d2
+      internalID: 883539732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_10
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 3084
+        width: 2690
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21810f9e4d0ee348bad5dd958c2f804
+      internalID: -1483314558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_11
+      rect:
+        serializedVersion: 2
+        x: 8269
+        y: 1670
+        width: 1118
+        height: 1472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c566d46bc4874a89356f8717d3e7d
+      internalID: 1673014846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_12
+      rect:
+        serializedVersion: 2
+        x: 9694
+        y: 1670
+        width: 1110
+        height: 1472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0436c63d75b0948ac12b7cf4b5f1e8
+      internalID: -1395791936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1150
+        width: 939
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d509dde9012d8c1488e1c03230d203db
+      internalID: -254100742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_14
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1222
+        width: 941
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a330accb0b90f6c4baf79d7dc96f18d2
+      internalID: 2025701153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_15
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1269
+        width: 1915
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6d351c794706d468aef5b52f9bb974
+      internalID: -1559125537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_16
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 1755
+        width: 902
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b7c43af73442c4983e34f5d0afdc8b
+      internalID: -827314745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_17
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 947
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fc29f8c8718074bb991f174dccd3cb
+      internalID: 1345745407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_18
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 66
+        width: 941
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c7d34637804204f81e23a8459c3548
+      internalID: 888865633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_19
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 114
+        width: 1915
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a7975ebcfe04c419a1a2d458251310
+      internalID: 62973849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_20
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 530
+        width: 733
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75145ebf5daaa4ebaf991de5feba24
+      internalID: -1444618115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      edge banner squareAsset 1@4x_0: 1847091557
+      edge banner squareAsset 1@4x_1: -1369240473
+      edge banner squareAsset 1@4x_10: -1483314558
+      edge banner squareAsset 1@4x_11: 1673014846
+      edge banner squareAsset 1@4x_12: -1395791936
+      edge banner squareAsset 1@4x_13: -254100742
+      edge banner squareAsset 1@4x_14: 2025701153
+      edge banner squareAsset 1@4x_15: -1559125537
+      edge banner squareAsset 1@4x_16: -827314745
+      edge banner squareAsset 1@4x_17: 1345745407
+      edge banner squareAsset 1@4x_18: 888865633
+      edge banner squareAsset 1@4x_19: 62973849
+      edge banner squareAsset 1@4x_2: -633754389
+      edge banner squareAsset 1@4x_20: -1444618115
+      edge banner squareAsset 1@4x_3: -1697313908
+      edge banner squareAsset 1@4x_4: 1210218908
+      edge banner squareAsset 1@4x_5: 1028043772
+      edge banner squareAsset 1@4x_6: -1849043637
+      edge banner squareAsset 1@4x_7: -681739235
+      edge banner squareAsset 1@4x_8: 1018753600
+      edge banner squareAsset 1@4x_9: 883539732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
