@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadSceneAfterCS : MonoBehaviour
 {
     [SerializeField] string nextScene;
-    void OnEnable() {
+    public void OnEnable() {
         SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
     }
 }
