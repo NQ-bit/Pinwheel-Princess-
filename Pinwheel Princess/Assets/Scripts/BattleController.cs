@@ -1,22 +1,40 @@
+using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace LP.TurnBasedStrategyTutorial
 {
-    public class GameController : MonoBehaviour
+    public class BattleController : MonoBehaviour
     {
         [SerializeField] private PlayerController player = null;
         [SerializeField] private EnemyController enemy = null;
         [SerializeField] private Button attackBtn = null;
         [SerializeField] private Button healBtn = null;
-        private enum Target { player,  enemy }
+        public Action<Target> OnBattleFinish; 
+        private Coroutine changeTurnCoroutine = null;
+
+        public enum Target { player,  enemy }
 
         private void Awake()
         {
             attackBtn.onClick.AddListener(BtnAttack);
             healBtn.onClick.AddListener(BtnHeal);
         }
+
+        public void StartBattle()
+        {
+            isPlayerTurn = true;
+            gameObject.SetActive(true);
+        }
+
+        void EndBattle(Target Winner)
+        {
+            OnBattleFinish?.Invoke(Winner);
+            gameObject.SetActive(false);
+        } 
+
         private bool isPlayerTurn = true; 
 
         private void Attack(Target target, int damage)
@@ -33,6 +51,8 @@ namespace LP.TurnBasedStrategyTutorial
 
             ChangeTurn();
         }
+
+
 
         private void Heal(Target target, int amount)
         {
@@ -61,29 +81,60 @@ namespace LP.TurnBasedStrategyTutorial
         }
 
         private void ChangeTurn()
+
         {
+            if (changeTurnCoroutine != null)
+            {
+                return; 
+            }
+           changeTurnCoroutine = StartCoroutine(ChangeTurnProcess());
+        }
+
+        private IEnumerator ChangeTurnProcess()
+        {
+            attackBtn.interactable = false;
+            healBtn.interactable = false;
             isPlayerTurn = !isPlayerTurn;
 
-            if(!isPlayerTurn)
-            {
-                attackBtn.interactable = false;
-                healBtn.interactable = false;
+            yield return new WaitForSeconds(1);
 
-                StartCoroutine(EnemyTurn());
+            var playerhealth = player.currentHealth; 
+            var enemyhealth = enemy.currentHealth;
+
+            if (playerhealth <= 0 )
+            {
+                EndBattle (Target.enemy);
+           
+            }
+            else if (enemyhealth <= 0 ) 
+            {
+                EndBattle(Target.player); 
             }
             else
             {
-                attackBtn.interactable = true;
-                healBtn.interactable = true;
+                if (!isPlayerTurn)
+                {
+                    StartCoroutine(EnemyTurn());
+                }
+                else
+                {
+                    attackBtn.interactable = true;
+                    healBtn.interactable = true;
+                }
             }
+
+            changeTurnCoroutine = null;
+
         }
+
+
 
         private IEnumerator EnemyTurn()
         {
             yield return new WaitForSeconds(3);
 
             int random = 0;
-            random = Random.Range(1, 3);
+            random = UnityEngine.Random.Range(1, 3);
 
             if (random == 1)
             {
