@@ -9,15 +9,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Scene.unity
     guid: c05fa8e1252824545b56f85424443b21
   - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 0b2cb56a3b73d0347b1fd7597921542b
+  - enabled: 1
     path: Assets/Scenes/CutScene.unity
     guid: dae03b36d5e991c4cb2300dc3dcf0096
+  - enabled: 1
+    path: Assets/Scenes/MainGameScene.unity
+    guid: 41ba7aa44c9d10c4c9f6afba72b6dd96
   - enabled: 1
     path: Assets/Scenes/Game Scene.unity
     guid: 0ff865a0e2a2fe64c8dc7a50babba7c7
   - enabled: 1
+    path: Assets/Scenes/Enemy2BattleScene.unity
+    guid: f390faa3e58da5647b53e6ea84b148f7
+  - enabled: 1
+    path: Assets/Scenes/Enemy3BattleScene.unity
+    guid: 81cd869ebd9372f439ec360e111cd2d1
+  - enabled: 1
+    path: Assets/Scenes/PlayerDeathScene.unity
+    guid: ce6546a11fb6a924692e7d8a47ce3150
+  - enabled: 1
+    path: Assets/Scenes/EnemyDeathScene.unity
+    guid: cf5f3cf54b314ee4e94e57b456644555
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 51d9451852a10b745b09bc17d305d096
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: f34098893a2656346a54467495f14355
   m_configObjects: {}
