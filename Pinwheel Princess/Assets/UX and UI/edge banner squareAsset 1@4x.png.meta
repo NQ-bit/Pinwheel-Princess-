@@ -136,8 +136,8 @@ TextureImporter:
         serializedVersion: 2
         x: 9989
         y: 4974
-        width: 388
-        height: 621
+        width: 399
+        height: 628
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,9 +240,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5020
-        y: 3868
+        y: 3929
         width: 2690
-        height: 193
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_9
       rect:
         serializedVersion: 2
-        x: 231
-        y: 2536
-        width: 4351
-        height: 1345
+        x: 233
+        y: 2527
+        width: 4349
+        height: 1354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,9 +324,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5020
-        y: 3084
+        y: 3148
         width: 2690
-        height: 195
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_11
       rect:
         serializedVersion: 2
-        x: 8269
-        y: 1670
-        width: 1118
-        height: 1472
+        x: 5020
+        y: 1755
+        width: 902
+        height: 770
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_12
       rect:
         serializedVersion: 2
-        x: 9694
-        y: 1670
-        width: 1110
-        height: 1472
+        x: 6783
+        y: 2303
+        width: 278
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_13
       rect:
         serializedVersion: 2
-        x: 372
-        y: 1150
-        width: 939
-        height: 615
+        x: 8269
+        y: 1670
+        width: 1118
+        height: 1472
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_14
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 1222
-        width: 941
-        height: 612
+        x: 9694
+        y: 1665
+        width: 1110
+        height: 1477
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_15
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 1269
-        width: 1915
-        height: 565
+        x: 372
+        y: 1150
+        width: 939
+        height: 615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_16
       rect:
         serializedVersion: 2
-        x: 5020
-        y: 1755
-        width: 902
-        height: 770
+        x: 1472
+        y: 1222
+        width: 941
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_17
       rect:
         serializedVersion: 2
-        x: 364
-        y: 0
-        width: 947
-        height: 609
+        x: 2667
+        y: 1269
+        width: 1915
+        height: 565
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,10 +491,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_18
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 66
-        width: 941
-        height: 612
+        x: 6783
+        y: 1755
+        width: 278
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_19
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 114
-        width: 1915
-        height: 564
+        x: 381
+        y: 0
+        width: 930
+        height: 617
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,6 +533,48 @@ TextureImporter:
       name: edge banner squareAsset 1@4x_20
       rect:
         serializedVersion: 2
+        x: 1472
+        y: 66
+        width: 941
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75145ebf5daaa4ebaf991de5feba24
+      internalID: -1444618115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_21
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 114
+        width: 1915
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aaf62b853eb5e49b62578868e1d254
+      internalID: -1765725420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge banner squareAsset 1@4x_22
+      rect:
+        serializedVersion: 2
         x: 5020
         y: 530
         width: 733
@@ -544,8 +586,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e75145ebf5daaa4ebaf991de5feba24
-      internalID: -1444618115
+      spriteID: 569557035a2b2b246affac4696098dab
+      internalID: 777710595
       vertices: []
       indices: 
       edges: []
@@ -575,6 +617,8 @@ TextureImporter:
       edge banner squareAsset 1@4x_19: 62973849
       edge banner squareAsset 1@4x_2: -633754389
       edge banner squareAsset 1@4x_20: -1444618115
+      edge banner squareAsset 1@4x_21: -1765725420
+      edge banner squareAsset 1@4x_22: 777710595
       edge banner squareAsset 1@4x_3: -1697313908
       edge banner squareAsset 1@4x_4: 1210218908
       edge banner squareAsset 1@4x_5: 1028043772
