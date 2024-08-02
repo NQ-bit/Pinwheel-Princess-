@@ -9,4 +9,14 @@ public class CreditScript : MonoBehaviour
     {
         SceneManager.LoadScene("Title Scene");
     }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
 }
