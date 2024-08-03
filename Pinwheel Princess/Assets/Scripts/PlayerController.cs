@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public int currentHealth { get; private set; } 
 
     public HealthBar healthBar;
-    
+
 
     private void Awake()
     {
@@ -82,5 +82,16 @@ public class PlayerController : MonoBehaviour
     public void PlayHeal()
     {
         Animator.SetTrigger("Heal"); 
+    }
+
+    // New attack methods
+    public void PlayAttack2()
+    {
+        Animator.SetTrigger("Attack2");
+    }
+
+    public void PlayAttack3()
+    {
+        Animator.SetTrigger("Attack3");
     }
 }
