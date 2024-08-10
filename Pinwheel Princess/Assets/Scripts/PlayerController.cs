@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     public void PlayAttack()
     {
-        Animator.SetTrigger("Attack");
+        Animator.SetTrigger("yo-yo1");
     }
 
     public void PlayHeal()
@@ -87,11 +87,11 @@ public class PlayerController : MonoBehaviour
     // New attack methods
     public void PlayAttack2()
     {
-        Animator.SetTrigger("Attack2");
+        Animator.SetTrigger("yo-yo2");
     }
 
     public void PlayAttack3()
     {
-        Animator.SetTrigger("Attack3");
+        Animator.SetTrigger("yo-yo3");
     }
 }

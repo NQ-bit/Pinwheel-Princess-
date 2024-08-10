@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     private BattleController battleController;
 
     public DialogueManager dialogueManager;
+    public Animator animator;
 
 
     // Example usage in your EnemyController script:
@@ -59,6 +60,9 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(3);
 
         int random = UnityEngine.Random.Range(1, 4); // Adjust the range to include the new attacks
+
+        //Triggers Animation
+        animator.SetTrigger("SeaMonkey");
 
         if (random == 1)
         {

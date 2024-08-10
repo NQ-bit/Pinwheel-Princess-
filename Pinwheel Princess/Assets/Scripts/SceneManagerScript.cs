@@ -7,24 +7,24 @@ using System.Collections.Generic;
 
 public class SceneManagerScript : MonoBehaviour
 {
-    private AudioSource AS;
-    public GameObject audioSource;
+   // private AudioSource AS;
+  //  public GameObject audioSource;
 
-    private void Start()
-    {
-        AS = audioSource.GetComponent<AudioSource>();
-    }
+  //  private void Start()
+    //{
+      //  AS = audioSource.GetComponent<AudioSource>();
+    //}
 
 
     public void LoadScene(string CutScene)
     {
         SceneManager.LoadScene(CutScene);
-        AS.Play();
+      //  AS.Play();
     }
 
-    public void playButton()
-    {
-        AS.Play();
-    }
+  //  public void playButton()
+    //{
+        //AS.Play();
+    //}
 
 }
