@@ -7,18 +7,18 @@ using UnityEngine.UI;
 public class LoadingBarScene : MonoBehaviour
 {
 
-    [SerializeField] string nextScene;
+    [SerializeField] int nextScene;
     [SerializeField] Slider loadSlider;
 
     public void Start() {
         LoadScene(nextScene);
     }
 
-    void LoadScene (string sceneName) {
+    void LoadScene (int sceneName) {
         StartCoroutine(LoadAsync(sceneName));
     }
 
-    IEnumerator LoadAsync (string sceneName) {
+    IEnumerator LoadAsync (int sceneName) {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
         while (!operation.isDone) {
             float progress = Mathf.Clamp01(operation.progress / 0.9f);
