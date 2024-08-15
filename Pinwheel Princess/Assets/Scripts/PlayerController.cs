@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public int currentHealth { get; private set; } 
 
     public HealthBar healthBar;
+    public static PlayerController _i; 
 
 
     private void Awake()
@@ -36,11 +37,11 @@ public class PlayerController : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("PlayerDeathScene");
+            SceneManager.LoadScene("PlayerWinScene");
         }
     }
 
-    private void FixedUpdate()
+private void FixedUpdate()
     {
         Move();
     }

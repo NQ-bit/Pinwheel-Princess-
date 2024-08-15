@@ -10,6 +10,8 @@ namespace LP.TurnBasedStrategyTutorial
         [SerializeField] private EnemyController enemy = null;
         [SerializeField] private Button attackBtn = null;
         [SerializeField] private Button healBtn = null;
+        public Text playerHealthText; // Reference to the player's health text
+
         private enum Target { player,  enemy }
 
         private void Awake()
