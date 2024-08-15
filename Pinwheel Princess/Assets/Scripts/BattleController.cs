@@ -19,8 +19,6 @@ namespace LP.TurnBasedStrategyTutorial
         [SerializeField] private Button healBtn = null;
         [SerializeField] private DamagePopUp PlayerDamagePopUp = null;
         [SerializeField] private DamagePopUp EnemyDamagePopUp = null;
-        [SerializeField] private DamagePopUp PlayerScore = null;
-        [SerializeField] private DamagePopUp EnemyScore = null;
         [SerializeField] private TextMeshProUGUI attackCooldownText = null;
         [SerializeField] private TextMeshProUGUI attack2CooldownText = null;
         [SerializeField] private TextMeshProUGUI attack3CooldownText = null;
@@ -44,7 +42,10 @@ namespace LP.TurnBasedStrategyTutorial
             healBtn.onClick.AddListener(BtnHeal);
             attack2Btn.onClick.AddListener(Attack2Btn);
             attack3Btn.onClick.AddListener(Attack3Btn);
-
+            attackCooldownText.gameObject.SetActive(false);
+            attack2CooldownText.gameObject.SetActive(false);
+            attack3CooldownText.gameObject.SetActive(false);
+            healCooldownText.gameObject.SetActive(false);
         }
 
         public void StartBattle()
@@ -75,8 +76,6 @@ namespace LP.TurnBasedStrategyTutorial
                 PlayerDamagePopUp.Setup(damage);
             }
 
-            playerScore += damage; // Update the player's score
-            PlayerScore.Setup(playerScore); // Display the player's score
             ChangeTurn();
         }
 
@@ -127,7 +126,7 @@ namespace LP.TurnBasedStrategyTutorial
         
         public void BtnAttack()
         {
-            if (attackCooldown <= 1)
+            if (attackCooldown <= 0)
             {
                 Attack(Target.enemy, 10);
                 attackCooldown = 3; 

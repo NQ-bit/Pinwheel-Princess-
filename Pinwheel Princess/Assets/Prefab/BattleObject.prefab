@@ -209,7 +209,7 @@ MonoBehaviour:
   healBtn: {fileID: 1366252300592338566}
   PlayerDamagePopUp: {fileID: 7880314799542655791}
   EnemyDamagePopUp: {fileID: 6552211090558011122}
-  PlayerScore: {fileID: 5511231763397496777}
+  PlayerScore: {fileID: 0}
   EnemyScore: {fileID: 3123251194929629081}
   attackCooldownText: {fileID: 6576722069579776963}
   attack2CooldownText: {fileID: 7170979996169735696}
@@ -1557,7 +1557,7 @@ GameObject:
   - component: {fileID: 3673048454683216318}
   - component: {fileID: 3123251194929629081}
   m_Layer: 5
-  m_Name: EnemyScorePopUp
+  m_Name: EnemyHealthPopUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1960,6 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06a94f72d0ce194299984d5f340a93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HealthText: {fileID: 3673048454683216318}
   slider: {fileID: 7411189594787489827}
 --- !u!1 &5217607413136082346
 GameObject:
@@ -2739,7 +2740,6 @@ GameObject:
   - component: {fileID: 6964375673001605028}
   - component: {fileID: 3168786659554204778}
   - component: {fileID: 6357397694838658033}
-  - component: {fileID: 5511231763397496777}
   m_Layer: 5
   m_Name: PlayerScorePopUp
   m_TagString: Untagged
@@ -2864,22 +2864,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &5511231763397496777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6286316128477702923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e86afef5cb0d6e9479c4cf6c77ea1c56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageColor: {r: 1, g: 0, b: 0, a: 1}
-  healColor: {r: 0, g: 1, b: 0, a: 1}
-  PlayerHealthColor: {r: 0, g: 0, b: 0, a: 1}
-  EnemyHealthColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!1 &7194310339682393873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,6 +2968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06a94f72d0ce194299984d5f340a93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HealthText: {fileID: 6357397694838658033}
   slider: {fileID: 394969010586740637}
 --- !u!1 &7395579064728910529
 GameObject:

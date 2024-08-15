@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LoadingBarScene : MonoBehaviour
+/*public class LoadingBarScene : MonoBehaviour
 {
 
     [SerializeField] string nextScene;
@@ -25,5 +25,5 @@ public class LoadingBarScene : MonoBehaviour
             loadSlider.value = progress;
             yield return null;
         }
-    }
-}
+    } 
+}*/ 

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Enemy2Controller : MonoBehaviour
 {
     private const int enemyAttack1Damage = 10;
-    private const int enemyAttack2Damage = 20; // Example damage value for a second attack
+    private const int enemyAttack2Damage = 30; // Example damage value for a second attack
     private const int enemyAttack3Damage = 5; // Example damage value for a third attack
 
     public int maxHealth = 100;
