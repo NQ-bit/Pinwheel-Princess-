@@ -27,9 +27,9 @@ public class EnemyController : MonoBehaviour
 
     public HealthBar healthBar;
 
-    void Start()
+    public void SetUp(BattleController Controller)
     {
-        battleController = FindObjectOfType<BattleController>();
+        battleController = Controller;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }

@@ -12,7 +12,6 @@ namespace LP.TurnBasedStrategyTutorial
     public class BattleController : MonoBehaviour
     {
         [SerializeField] private PlayerController player = null;
-        [SerializeField] private EnemyController enemy = null;
         [SerializeField] private Button attackBtn = null;
         [SerializeField] private Button attack2Btn = null;
         [SerializeField] private Button attack3Btn = null;
@@ -23,6 +22,10 @@ namespace LP.TurnBasedStrategyTutorial
         [SerializeField] private TextMeshProUGUI attack2CooldownText = null;
         [SerializeField] private TextMeshProUGUI attack3CooldownText = null;
         [SerializeField] private TextMeshProUGUI healCooldownText = null;
+        [SerializeField] private RectTransform EnemyRoot = null;
+        private EnemyController CurrentEnemy;
+        [SerializeField] private HealthBar EnemyHealthBar = null; 
+        
 
         public Action<Target> OnBattleFinish;
         private Coroutine changeTurnCoroutine = null;
@@ -48,8 +51,16 @@ namespace LP.TurnBasedStrategyTutorial
             healCooldownText.gameObject.SetActive(false);
         }
 
-        public void StartBattle()
+        public void StartBattle(EnemyController enemy)
         {
+            if (CurrentEnemy != null)
+            {
+                Destroy(CurrentEnemy.gameObject);
+            }
+            CurrentEnemy = Instantiate(enemy, EnemyRoot);
+            CurrentEnemy.healthBar = EnemyHealthBar;
+            CurrentEnemy.SetUp(this);
+
             isPlayerTurn = true;
             gameObject.SetActive(true);
         }
@@ -66,7 +77,7 @@ namespace LP.TurnBasedStrategyTutorial
         {
             if (target == Target.enemy)
             {
-                enemy.TakeDamage(damage);
+                CurrentEnemy.TakeDamage(damage);
                 player.PlayAttack();
                 EnemyDamagePopUp.Setup(damage);
             }
@@ -109,7 +120,7 @@ namespace LP.TurnBasedStrategyTutorial
         {
             if (target == Target.enemy)
             {
-                enemy.GainHealth(amount);
+                CurrentEnemy.GainHealth(amount);
                 EnemyDamagePopUp.Setup(amount, false);
 
             }
@@ -173,7 +184,7 @@ namespace LP.TurnBasedStrategyTutorial
             yield return new WaitForSeconds(1);
 
             var playerhealth = player.currentHealth; 
-            var enemyhealth = enemy.currentHealth;
+            var enemyhealth = CurrentEnemy.currentHealth;
 
             if (playerhealth <= 0 )
             {
