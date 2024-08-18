@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("EnemyDeathScene");
+            SceneManager.LoadScene("PlayerWinScene");
         }
     }
 
