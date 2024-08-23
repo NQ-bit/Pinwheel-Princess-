@@ -34,11 +34,6 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         PlayerInput();
-
-        if (currentHealth <= 0)
-        {
-            SceneManager.LoadScene("PlayerWinScene");
-        }
     }
 
 private void FixedUpdate()

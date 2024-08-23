@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: aad42745628605540ae12b762a147db3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_0
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 4275
+        width: 898
+        height: 1765
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1928b3fab8a54b83f34ea0875ffea
+      internalID: -725568706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_1
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 5668
+        width: 9
+        height: 12
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dd0593e26bcce40a15e57101ca4981
+      internalID: -52379250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_2
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 4275
+        width: 904
+        height: 1723
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1a2f73c9038f949af9b232d3100be9
+      internalID: -1546991675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_3
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 4275
+        width: 907
+        height: 1723
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f171f71f250382f4fbdf7e039ef5a93e
+      internalID: 69425443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_4
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 5635
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9294236c4ebbb4a4298ad49293985f07
+      internalID: 1048635482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_5
+      rect:
+        serializedVersion: 2
+        x: 6073
+        y: 5635
+        width: 12
+        height: 9
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba09f8c50db31e4789cdb1426643432
+      internalID: 964985585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_6
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2224
+        width: 871
+        height: 1831
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d529e9f838db6641a2351ff2fddfbe0
+      internalID: -776199833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_7
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3671
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82675720b5d2984fac97971f9287ba7
+      internalID: 1007400574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_8
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 2224
+        width: 895
+        height: 1765
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e7b9c36bbd70b47a37a0710c7ebf6b
+      internalID: 457525707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_9
+      rect:
+        serializedVersion: 2
+        x: 4683
+        y: 2224
+        width: 871
+        height: 1831
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0933e01707cb0a4c84c336f06e3205b
+      internalID: -1001924238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_10
+      rect:
+        serializedVersion: 2
+        x: 6067
+        y: 3671
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec470a403ae52f4439ff6c762e6c6f88
+      internalID: 1930993208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_11
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 3620
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e7acb355c873848b0a9753b049e976
+      internalID: -769625811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_12
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 176
+        width: 871
+        height: 1828
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448f51c466ad83b4abc06edb262462cb
+      internalID: 1731721330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: princess_right_walk_spritesheet (3)_13
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1620
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 29.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e32cd62bf07b554a9f6ec7f39cf04fc
+      internalID: -889358387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      princess_right_walk_spritesheet (3)_0: -725568706
+      princess_right_walk_spritesheet (3)_1: -52379250
+      princess_right_walk_spritesheet (3)_10: 1930993208
+      princess_right_walk_spritesheet (3)_11: -769625811
+      princess_right_walk_spritesheet (3)_12: 1731721330
+      princess_right_walk_spritesheet (3)_13: -889358387
+      princess_right_walk_spritesheet (3)_2: -1546991675
+      princess_right_walk_spritesheet (3)_3: 69425443
+      princess_right_walk_spritesheet (3)_4: 1048635482
+      princess_right_walk_spritesheet (3)_5: 964985585
+      princess_right_walk_spritesheet (3)_6: -776199833
+      princess_right_walk_spritesheet (3)_7: 1007400574
+      princess_right_walk_spritesheet (3)_8: 457525707
+      princess_right_walk_spritesheet (3)_9: -1001924238
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

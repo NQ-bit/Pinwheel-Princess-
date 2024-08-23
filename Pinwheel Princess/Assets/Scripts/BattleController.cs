@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEditor.Experimental.GraphView;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 namespace LP.TurnBasedStrategyTutorial
 {
@@ -24,8 +25,8 @@ namespace LP.TurnBasedStrategyTutorial
         [SerializeField] private TextMeshProUGUI healCooldownText = null;
         [SerializeField] private RectTransform EnemyRoot = null;
         private EnemyController CurrentEnemy;
-        [SerializeField] private HealthBar EnemyHealthBar = null; 
-        
+        [SerializeField] private HealthBar EnemyHealthBar = null;
+       [SerializeField] private Image BackgroundRoot;
 
         public Action<Target> OnBattleFinish;
         private Coroutine changeTurnCoroutine = null;
@@ -51,8 +52,9 @@ namespace LP.TurnBasedStrategyTutorial
             healCooldownText.gameObject.SetActive(false);
         }
 
-        public void StartBattle(EnemyController enemy)
+        public void StartBattle(EnemyController enemy, Sprite background)
         {
+            ResetAllCooldown();
             if (CurrentEnemy != null)
             {
                 Destroy(CurrentEnemy.gameObject);
@@ -61,14 +63,22 @@ namespace LP.TurnBasedStrategyTutorial
             CurrentEnemy.healthBar = EnemyHealthBar;
             CurrentEnemy.SetUp(this);
 
+            
+            BackgroundRoot.sprite = background; 
+
             isPlayerTurn = true;
-            gameObject.SetActive(true);
+            gameObject.SetActive(true); 
         }
 
         void EndBattle(Target Winner)
         {
             OnBattleFinish?.Invoke(Winner);
             gameObject.SetActive(false);
+
+            if (Winner == Target.enemy)
+            {
+                SceneManager.LoadScene("PlayerDeathScene");
+            }
         }
 
         private bool isPlayerTurn = true;
@@ -227,23 +237,25 @@ namespace LP.TurnBasedStrategyTutorial
 
         }
 
+        private void ResetAllCooldown()
+        {
+            attackCooldown = 0;
+            attack2Cooldown = 0;
+            attack3Cooldown = 0;
+            healCooldown = 0;
 
+            attackBtn.interactable = true;
+            healBtn.interactable = true;
+            attack2Btn.interactable = true;
+            attack3Btn.interactable = true; 
+        }
 
         private IEnumerator EnemyTurn()
         {
             yield return new WaitForSeconds(3);
 
-            int random = 0;
-            random = UnityEngine.Random.Range(1, 3);
-
-            if (random == 1)
-            {
-                Attack(Target.player, 12);
-            }
-            else
-            {
-                Heal(Target.enemy, 3);
-            } 
+            CurrentEnemy.EnemyTurn();
+         
         }
 
         private void ShowCooldownMessage(TextMeshProUGUI cooldownText)
@@ -259,6 +271,6 @@ namespace LP.TurnBasedStrategyTutorial
             });
         }
     }
-
+ 
 }
 

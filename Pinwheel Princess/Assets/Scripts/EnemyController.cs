@@ -15,6 +15,9 @@ public class EnemyController : MonoBehaviour
     public Animator animator;
 
 
+    [SerializeField] private GameObject deathEffect;
+
+
     // Example usage in your EnemyController script:
     public void StartEnemyDialogue(string[] dialogueLines)
     {
@@ -34,19 +37,23 @@ public class EnemyController : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    void Update()
-    {
-        if (currentHealth <= 0)
-        {
-            SceneManager.LoadScene("PlayerWinScene");
-        }
-    }
 
+    public void Die()
+    {
+        // Instantiate death effect (if needed)
+        if (deathEffect != null)
+        {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+        }
+
+        // Destroy the enemy game object
+        Destroy(gameObject);
+    }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        healthBar.SetHealth(currentHealth); 
     }
 
     public void GainHealth(int Health)
@@ -55,30 +62,30 @@ public class EnemyController : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-    private IEnumerator EnemyTurn()
+    public void EnemyTurn()
     {
-        yield return new WaitForSeconds(3);
 
         int random = UnityEngine.Random.Range(1, 4); // Adjust the range to include the new attacks
-
-        //Triggers Animation
-        animator.SetTrigger("SeaMonkey");
 
         if (random == 1)
         {
             battleController.Attack(BattleController.Target.player, enemyAttack1Damage);
+            animator.SetTrigger("Attack");
         }
         else if (random == 2)
         {
             battleController.Attack(BattleController.Target.player, enemyAttack2Damage);
+            animator.SetTrigger("Attack");
         }
         else if (random == 3)
         {
             battleController.Attack(BattleController.Target.player, enemyAttack3Damage);
+            animator.SetTrigger("Attack"); 
         }
         else
         {
             battleController.Heal(BattleController.Target.enemy, 3);
+            animator.SetTrigger("Attack"); 
         }
     }
 
