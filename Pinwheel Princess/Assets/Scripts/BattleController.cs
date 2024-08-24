@@ -36,7 +36,7 @@ namespace LP.TurnBasedStrategyTutorial
         private int attack3Cooldown = 0;
         private int healCooldown = 0;
 
-        private int playerScore = 0; // Add a variable to keep track of the player's score
+      //  private int playerScore = 0; // Add a variable to keep track of the player's score
 
         public enum Target { player, enemy }
 
