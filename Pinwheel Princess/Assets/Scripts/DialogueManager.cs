@@ -19,6 +19,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        dialogueBox.SetActive(false);
     }
 
     private void Update()
