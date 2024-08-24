@@ -8,6 +8,7 @@ public class PlayerMainGameControllers : MonoBehaviour
 {
 
     [SerializeField] private float moveSpeed = 1f;
+    public Animator playerAnimator;
     private PlayerControls playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
@@ -29,6 +30,10 @@ public class PlayerMainGameControllers : MonoBehaviour
     private void Update()
     {
         PlayerInput();
+
+        playerAnimator.SetFloat("Horizontal", movement.x);
+        playerAnimator.SetFloat("Vertical", movement.y);
+        playerAnimator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     private void FixedUpdate()
