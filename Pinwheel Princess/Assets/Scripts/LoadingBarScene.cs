@@ -4,21 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-/*public class LoadingBarScene : MonoBehaviour
+public class LoadingBarScene : MonoBehaviour
 {
-
     [SerializeField] string nextScene;
     [SerializeField] Slider loadSlider;
 
     public void Start() {
-        LoadScene(nextScene);
+        LoadNextScene(nextScene);
     }
 
-    void LoadScene (string sceneName) {
-        StartCoroutine(LoadAsync(sceneName));
+    void LoadNextScene (string sceneName) {
+        StartCoroutine(LoadAsyncScene(sceneName));
     }
 
-    IEnumerator LoadAsync (string sceneName) {
+    IEnumerator LoadAsyncScene (string sceneName) {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
         while (!operation.isDone) {
             float progress = Mathf.Clamp01(operation.progress / 0.9f);
@@ -26,4 +25,4 @@ using UnityEngine.UI;
             yield return null;
         }
     } 
-}*/ 
+}
