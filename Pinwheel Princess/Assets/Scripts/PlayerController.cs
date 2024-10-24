@@ -72,7 +72,7 @@ private void FixedUpdate()
 
     public void PlayAttack()
     {
-        Animator.SetTrigger("yo-yo1");
+        Animator.SetTrigger("Attack");
     }
 
     public void PlayHeal()

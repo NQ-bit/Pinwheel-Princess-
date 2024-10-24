@@ -151,6 +151,7 @@ namespace LP.TurnBasedStrategyTutorial
             {
                 Attack(Target.enemy, 10);
                 attackCooldown = 3; 
+                player.PlayAttack();
             }
             else
             {
