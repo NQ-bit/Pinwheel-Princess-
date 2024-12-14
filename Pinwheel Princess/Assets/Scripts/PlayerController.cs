@@ -90,4 +90,10 @@ private void FixedUpdate()
     {
         Animator.SetTrigger("yo-yo3");
     }
+
+    public void ResetHealth() 
+    { 
+        currentHealth = maxHealth; healthBar.SetHealth(currentHealth); 
+    }
+
 }

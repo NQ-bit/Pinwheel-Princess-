@@ -62,6 +62,11 @@ public class EnemyController : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
+    public void ResetHealth()
+    { 
+        currentHealth = maxHealth; healthBar.SetHealth(currentHealth); 
+    }
+
     public void EnemyTurn()
     {
 

@@ -67,7 +67,12 @@ namespace LP.TurnBasedStrategyTutorial
             BackgroundRoot.sprite = background; 
 
             isPlayerTurn = true;
-            gameObject.SetActive(true); 
+            gameObject.SetActive(true);
+
+            // Reset health before starting the battle
+            player.ResetHealth();
+            CurrentEnemy.ResetHealth();
+
         }
 
         void EndBattle(Target Winner)
@@ -79,6 +84,9 @@ namespace LP.TurnBasedStrategyTutorial
             {
                 SceneManager.LoadScene("PlayerDeathScene");
             }
+
+            // Reset health at the end of the fight
+            player.ResetHealth(); CurrentEnemy.ResetHealth();
         }
 
         private bool isPlayerTurn = true;
@@ -232,7 +240,9 @@ namespace LP.TurnBasedStrategyTutorial
                     attack3CooldownText.text = "Can Not Play: " + attack3Cooldown;
                 }
             }
-           
+
+            // Reset health at the end of each round 
+           // player.ResetHealth(); CurrentEnemy.ResetHealth();
             changeTurnCoroutine = null;
 
         }
